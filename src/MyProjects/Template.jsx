@@ -1,6 +1,6 @@
 function Template({ image, heading, code, preview }) {
   return (
-    <div className="border-2 border-gray-500 p-4 space-y-4 flex justify-center flex-col items-center">
+    <div className="border-2 border-gray-500 p-4 space-y-4 rounded-md flex justify-center flex-col items-center">
       <h1 className="font-bold">{heading}</h1>
       <img src={image} />
       <div className="flex items-center m-10 space-x-4">

@@ -1,8 +1,6 @@
-import React from "react";
-
 function Skills() {
   return (
-    <div>
+    <div id="skills" className="h-80 flex justify-center items-center">
       <div className="flex items-center">
         <h1 className="text-bold text-2xl">SKILLS=</h1>
         <div className="">

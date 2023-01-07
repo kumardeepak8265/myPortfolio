@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.2"
+    "react-icons": "^4.7.1",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
