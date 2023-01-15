@@ -6,6 +6,7 @@ function LpNavBar() {
     <div className=" flex sm:flex-row p-4  sm:space-x-8 ">
       <Link
         spy={true}
+        offset={-150}
         to="home"
         smooth={true}
         className="hover:text-yellow-500  hover:font-bold cursor pointer"
@@ -15,6 +16,7 @@ function LpNavBar() {
 
       <Link
         spy={true}
+        offset={-150}
         to="skills"
         smooth={true}
         className="hover:text-yellow-500 hover:font-bold cursor pointer"
@@ -25,6 +27,7 @@ function LpNavBar() {
       <Link
         spy={true}
         to="projects"
+        offset={-150}
         smooth={true}
         className="hover:text-yellow-500  hover:font-bold cursor pointer"
       >

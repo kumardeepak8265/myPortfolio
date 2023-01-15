@@ -5,20 +5,33 @@ import { Link } from "react-scroll";
 function MbNavBar({ MobileViesUp }) {
   return (
     <div className=" w-full flex flex-col space-y-4 md:hidden mx-2">
-      <Link onClick={MobileViesUp} spy={true} to="home" smooth={true}>
+      <Link
+        offset={-500}
+        onClick={MobileViesUp}
+        spy={true}
+        to="home"
+        smooth={true}
+      >
         Home
       </Link>
       <hr className="sm:hidden"></hr>
-      <Link onClick={MobileViesUp} spy={true} to="skills" smooth={true}>
+      <Link
+        offset={-400}
+        onClick={MobileViesUp}
+        spy={true}
+        to="skills"
+        smooth={true}
+      >
         SKILLS
       </Link>
       <hr className="sm:hidden"></hr>
+
       <Link
-        onClick={MobileViesUp}
         spy={true}
-        to="projects
-      "
+        to="projects"
+        offset={-500}
         smooth={true}
+        onClick={MobileViesUp}
       >
         PROJECTS
       </Link>

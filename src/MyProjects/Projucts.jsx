@@ -3,7 +3,18 @@ import Template from "./Template";
 const Projects = () => {
   return (
     <div id="projects">
-      <div className=" sm:grid sm:grid-cols-3 gap-4 my-4 space-y-4 max w-6xl ">
+      <div
+        className=" sm:grid sm:grid-cols-3 gap-4 my-4 space-y-4 
+      max w-6xl "
+      >
+        <div data-aos="fade-up-right">
+          <Template
+            image="https://cdn.discordapp.com/attachments/943172350139052092/1063991469276405801/codeyogi.png"
+            heading="codeYogi clone in react-js"
+            code="https://github.com/kumardeepak8265/codeyogi-website-clone"
+            preview="https://63c357aea7b9a5000974928b--melodic-dolphin-82c15d.netlify.app/"
+          ></Template>
+        </div>
         {/* <div data-aos="fade-up-right">
         <Template
           image="https://cdn.discordapp.com/attachments/943172350139052092/1052078310932369408/IMG_20221213_095245.jpg"
